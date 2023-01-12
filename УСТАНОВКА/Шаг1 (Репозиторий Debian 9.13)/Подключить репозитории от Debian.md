@@ -13,12 +13,10 @@ sudo apt install apt-transport-https ca-certificates -y
 deb https://deb.debian.org/debian/ stretch main contrib non-free
 deb https://security.debian.org/debian-security/ stretch/updates main contrib non-free
 
-https://deb.debian.org/debian/ stretch non-free contrib main
-
-https://security.debian.org/debian-security/ stretch/updates non-free contrib main
-
-#   В зависимости от поставленных задач использования подключенного репозитория дополнительно для Astra Linux Common Edition может понадобиться отменить приоритет репозитория Astra Linux Common Edition, для чего удалить файл: 
-# /etc/apt/preferences.d/orel (или изменить в нем приоритет репозитория);
+# В зависимости от поставленных задач использования подключенного репозитория
+# дополнительно для Astra Linux Common Edition может понадобиться отменить приоритет
+# репозитория Astra Linux Common Edition, для чего удалить файл: 
+# /etc/apt/preferences.d/orel (или изменить в нем приоритет репозитория)
 ```
 
 ## Обновить кеш пакетов
