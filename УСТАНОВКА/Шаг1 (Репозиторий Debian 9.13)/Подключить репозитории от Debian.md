@@ -1,13 +1,13 @@
 # Шаг 1. Репозиторий Debian 9.13
 
-## 1. Установить пакет `debian-archive-keyring`
+## Установить пакет `debian-archive-keyring`
 
 ```console
 sudo apt install debian-archive-keyring -y
 sudo apt install apt-transport-https ca-certificates -y
 ```
 
-## 2. Добавить описание репозиториев, например, в файл `/etc/apt/sources.list.d/buster.list`
+## Добавить описание репозиториев, например, в файл `/etc/apt/sources.list.d/buster.list`
 
 ```text
 deb https://deb.debian.org/debian/ stretch main contrib non-free
@@ -21,7 +21,7 @@ https://security.debian.org/debian-security/ stretch/updates non-free contrib ma
 # /etc/apt/preferences.d/orel (или изменить в нем приоритет репозитория);
 ```
 
-## 3. Обновить кеш пакетов
+## Обновить кеш пакетов
 
 ```console
 sudo apt-get update -y && sudo apt-get upgrade -y
