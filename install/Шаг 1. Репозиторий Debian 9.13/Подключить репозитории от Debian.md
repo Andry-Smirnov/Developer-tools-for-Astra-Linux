@@ -1,4 +1,4 @@
-# Шаг 1. Репозиторий Debian 9.13
+# Репозитории Debian 9.13
 
 ## Установить пакет `debian-archive-keyring`
 
