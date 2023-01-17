@@ -8,3 +8,9 @@ chmod +x winetricks
 sudo mv winetricks /usr/bin/winetricks
 
 winetricks
+
+# add to .bashrc PATH to wine folder init
+cd ~
+nano .bashrc
+# then add to end
+# export PATH=[/opt/wine-7.13/bin]:$PATH
