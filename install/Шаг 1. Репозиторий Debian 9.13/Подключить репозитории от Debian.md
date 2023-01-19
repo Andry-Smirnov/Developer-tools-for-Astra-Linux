@@ -12,6 +12,7 @@ sudo apt install apt-transport-https ca-certificates -y
 ```text
 deb https://deb.debian.org/debian/ stretch main contrib non-free
 deb https://security.debian.org/debian-security/ stretch/updates main contrib non-free
+deb https://mirror.yandex.ru/debian/ stretch main contrib non-free
 
 # В зависимости от поставленных задач использования подключенного репозитория
 # дополнительно для Astra Linux Common Edition может понадобиться отменить приоритет
